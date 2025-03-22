@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = 'UTF-8'>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+</head>
+<body>
+    <input id = "Data1" placeholder = "Enter text" type = "text">
+    <button type = "button" onclick="document.getElementById('Data2').innerText= document.getElementById('Data1').value">Click me!</button>
+    <p id = "Data2"></p>
+</body>
+</html>
