@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+        <script>
+            function func()
+            {
+                let x = document.getElementById("ans").value;
+                if(x == "2")
+                {
+                    window.location.href = "second.html";
+                }
+                else
+                {
+                    alert("Oops, wrong answer");
+                }
+            }
+            </script>
+    </head>
+    <body>
+        <input type = "text" label = "Enter your answer" id = "ans">
+        <button id = "button" onclick="func()">Submit</button>
+            </body>
+            </html>
